@@ -178,17 +178,13 @@
                 </asp:RequiredFieldValidator>
                 <br />
                  
-
-                <asp:Button ID="btnTotal" runat="server" Text="Calculate Total" />
+                <asp:Button ID="btnTotal" runat="server" Text="Calculate Total" OnClick="btnTotal_Click" />
 
                 <!---Labels to print the results to the screen-->
-
-                <div>              
                 <asp:Label ID="lblScoreTotal" runat="server"></asp:Label>
                 <asp:Label ID="lblAllowedTotal" runat="server"></asp:Label>
                 <asp:Label ID="lblSpectatorTotal" runat="server"></asp:Label>                           
-                </div>
-
+                
        <footer class="alert alert-success">
         @2015 - Built May 31, 2015
       </footer>

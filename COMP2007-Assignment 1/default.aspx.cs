@@ -29,13 +29,13 @@ namespace COMP2007_Assignment_1
                  Convert.ToDecimal(spectator3TextBox.Text) + Convert.ToDecimal(spectator4TextBox.Text);
 
             //display the score
-            lblScoreTotal.Text = scoreTotal.ToString("c");
+            lblScoreTotal.Text = scoreTotal.ToString("n");
 
             //display the allowed
-            lblAllowedTotal.Text = allowedTotal.ToString("c");
+            lblAllowedTotal.Text = allowedTotal.ToString("n");
 
             //display the spectators
-            lblSpectatorTotal.Text = spectatorTotal.ToString("c");
+            lblSpectatorTotal.Text = spectatorTotal.ToString("n");
             
         }
     }
